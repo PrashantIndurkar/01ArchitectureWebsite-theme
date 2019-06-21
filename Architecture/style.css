@@ -24,6 +24,10 @@ header{
     margin-right:30px; 
     letter-spacing: 4px;
 }
+.para{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
 .a{
     background-color: #e41749;
     padding:3px 10px 3px 10px ;
@@ -66,10 +70,32 @@ p .lead{
 span .text-hero .plus{
     margin-left: 200px;
 }
-
-/* project */
-.top-left {
-    position: absolute;
-    
+.sendmsg{
+    background-color: #e41749;
     color: #fff;
-  }
+}
+/* map */
+.imagemap{
+    margin-top: 5rem;
+    background: url(/Architecture/images/map.jpg);
+    height: 70vh;
+
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    height: 10rem;
+    font-size: 1.2rem;
+}
+.footerTextColor{
+
+    color:  #e41749;
+}
+.btnColor{
+    border:1px solid #e41749 !important;
+    color: #e41749;
+}
+.btnColor:hover{
+ background-color:#e41749 !important;
+ color: #fff;
+}
