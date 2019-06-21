@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbarshadow{
+  box-shadow: 0px 4px 10px #000000;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black
+}
+.nav-item{
+    margin-right:30px; 
+    letter-spacing: 4px;
+}
+.a{
+    background-color: #e41749;
+    padding:3px 10px 3px 10px ;
+    margin-right: 5px;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.myContainer{
+    margin-right: 170px;
+    margin-left: 170px;
+}
+.hero-text{
+    color: #ffffff;
+    background-color: #000;
+    padding:3px 10px 3px 0px ; 
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+p .lead{
+    display: block;
+}
+.texta{
+    background-color: #e41749;
+    padding:20px 26px 20px 30px ; 
+    font-family: 'Playfair Display', serif;
+
+}
+.row{
+    margin-bottom: 15px;
+}
+.top-left{
+    position:absolute;left:0;top:0;color:#fff!important;background-color:#000!important
+   
+}
+span .text-hero .plus{
+    margin-left: 200px;
+}
+
+/* project */
+.top-left {
+    position: absolute;
+    
+    color: #fff;
+  }
